@@ -1,0 +1,40 @@
+.container {
+  padding : 40px 7vw 40px 7vw;
+  background-color:#1C202B;;
+}
+.icons {
+  width : 40px;
+  height : 40px;
+  margin-top: 40px;
+  margin-right: 20px;
+  background-color: red;
+}
+.title {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.copywriter {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 200%;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: 'center';
+}
