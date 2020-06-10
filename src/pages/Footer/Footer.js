@@ -8,7 +8,7 @@ import cx from 'classnames';
 
 function Footer() {
   return (
-    <div className={ styles.container }>
+    <div className={ styles.ontainer }>
       <div className = "row">
         <div class="col-12 col-md-6 col-lg-3">
           <img src = { logo } />
