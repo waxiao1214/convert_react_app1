@@ -11,25 +11,25 @@ import camera from '../../assets/img/camera.png';
 function Form() {
   return (
       <div className = { styles.formContainer }>
-        <div className = { styles.form_position }>
-          <div className="row">
-            <div className="col-12 col-lg-7">
-              <div className = { styles.formWrapper}>
-                <h1 className = { styles.formTitle}>Send us a Message</h1>
+        <div className="row">
+          <div className = "userml">
+            <div className = {cx("d-flex", styles.formcontent)}>
+              <div style = {{ padding:'61px 77px 0 80px'}}>
+                <label className = { styles.formTitle}>Send us a Message</label><br/>
                 <label className = { styles.formTitleDetail}>Get in touch and let us know how we can help</label>
-                <form>
-                  <div className = { styles.input }>
-                    <label className = { styles.label }>Your Name</label>
-                    <TextField  placeholder="Placeholder" fullWidth variant="outlined"/>
-                  </div>
-                  <div className = { styles.input }>
-                    <label className = { styles.label }>Your Email</label>
-                    <TextField placeholder="Placeholder" fullWidth  variant="outlined" />
-                  </div>
-                  <div className = { styles.input }>
-                    <label className = { styles.label }>Message</label>
-                    <TextField multiline fullWidth rows={4} variant="outlined"/>
-                  </div>
+                <form style = {{width:"500px"}}>
+                    <div className = { styles.input }>
+                      <label className = { styles.label }>Your Name</label>
+                      <TextField style = {{height:'50px'}} placeholder="Placeholder" fullWidth variant="outlined"/>
+                    </div>
+                    <div className = { styles.input }>
+                      <label className = { styles.label }>Your Email</label>
+                      <TextField placeholder="Placeholder" fullWidth  variant="outlined" />
+                    </div>
+                    <div className = { styles.input }>
+                      <label className = { styles.label }>Message</label>
+                      <textarea style = {{ width: '500px'}}/>
+                    </div>
                 </form>
                 <div className = { styles.submit }>
                   <div className = { styles.telegram }>
@@ -37,24 +37,24 @@ function Form() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-12 col-lg-5">
-              <div className = { styles.contactInfo }>
-                <div className = { styles.contactInfoItems }>
-                  <label className = { styles.contactInfoTitle}>
-                    Contact Information
-                  </label>
-                </div>
-                <div className = { styles.contactInfoItems }>
-                  <label className = { styles.email}>
-                    <img className = { styles.emailIcon } src = { emailIcon }/>
-                    Support@Convert-Bills.com
-                  </label>
-                </div>
-                <div className = { styles.contactInfoItems }>
-                  <img className = { styles.icons } src = { faceBook }></img>
-                  <img className = { styles.icons } src = { camera }></img>
-                </div>
+              <div className = { styles.contactInfo }>  
+                <div className = { styles.Info }>
+                  <div>
+                    <label className = { styles.contactInfoTitle}>
+                      Contact Information
+                    </label>
+                  </div>
+                  <div className = { styles.contactInfoItems }>
+                    <label className = { styles.email}>
+                      <img className = { styles.emailIcon } src = { emailIcon }/>
+                      Support@Convert-Bills.com
+                    </label>
+                  </div>
+                  <div className = { styles.contactInfoItems }>
+                    <img className = { styles.icons } src = { faceBook }></img>
+                    <img className = { styles.icons } src = { camera }></img>
+                  </div>
+                </div>             
               </div>
             </div>
           </div>
@@ -64,3 +64,5 @@ function Form() {
 }
 
 export default CSSModules(Form, styles)
+
+

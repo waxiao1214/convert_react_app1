@@ -16,10 +16,10 @@ function Footer() {
               <div class="col-12 col-md-6 col-lg-3">
                 <img src = { logo } />
                 <div className = "row">
-                  <div className = { styles.icons }>
+                  <div className = { styles.icons } style = {{backgroundColor:'rgba(196, 196, 196, 0.15)'}}>
                     <img src = { faceBook } style = {{ width: '100%' }}/>
                   </div>
-                  <div className = { styles.icons }>
+                  <div className = { styles.icons } style = {{backgroundColor:'rgba(196, 196, 196, 0.15)'}}>
                     <img  src = { instagram } style = {{ width : '100%' }}/>
                   </div>
                 </div>

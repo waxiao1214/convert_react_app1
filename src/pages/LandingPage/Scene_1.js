@@ -7,7 +7,7 @@ import cx from 'classnames'
 function Scene_1() {
   return (
     <div className={ styles.scene_1_container }>
-      <Header/>
+      <Header width = {1060} />
       <div className = "row">
         <div className = "userml d-flex">
           <div style = {{ width : '800px'}}>
