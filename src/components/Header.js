@@ -8,20 +8,11 @@ function Header() {
   return (
     <div>
       <div className = "row">
-        <div className = { styles.left}></div>
-          <div className = "col">
-            <img className= { styles.logo } src= { logo }/>
-          </div>
-          <div className = {styles.right}>
-            <div className = 'col'>
-              <div className="col">
-                <i className={cx("fa fa-bars", styles.iconSize)}></i> 
-              </div>
-              <div className = { cx("col", styles.title) }>
-                <h1 className = { styles.menu }>convert <i class="fa fa-angle-down"></i></h1>
-                <h1 className = { styles.menu }>free credit <i class="fa fa-angle-down"></i></h1>
-              </div>
-          </div>
+        <div className = { styles.header }>
+          <img className= { styles.logo } src= { logo }/>
+          <i className={cx("fa fa-bars", styles.iconSize)}></i> 
+          <label className = { styles.menu}>convert <i class="fa fa-angle-down"></i></label>
+          <label className = { styles.menu }>free credit <i class="fa fa-angle-down"></i></label>
         </div>
       </div>
     </div>

@@ -1,53 +1,82 @@
-.container {
-  padding : 0 10vw 0 5vw;
-}
+
 .scene_1_container {
   background-image: url("../../assets/img/LandBack.svg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  padding : 0 5vw 0 10vw;
+  width: 100%;
 }
-.title_position {
-  width : 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-.convert_title{
-  font-family: 'Montserrat';
-  max-width: 100%;
+.convert_text {
+  padding-top: 155px;
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: 'normal';
-  font-size: 60px;
+  font-weight: lighter;
+  font-size: 52px;
   line-height: 110%;
   color: #FFFFFF;
-  float: left;
 }
+.image{
+  position: relative;
+  left : -160px;
+  width : 530px;
 
+}
 .bold {
   font-size: 66px;
   font-weight: 900;
 }
-
+.convert_strong {
+  font-size: 60px;
+}
 .scene_2_container {
   background-color: #F6F6FA;
-  padding: 58px 5vw 58px 10vw;
+  padding-top: 53px;
+  padding-bottom: 71px;
 }
-
+.introduce_text {
+  margin-left: 58px;
+  padding-top: 110px;
+}
+.introduce_content {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4F5258;
+  padding-right: 10px;
+}
+.logo {
+  height : 45px;
+  margin-top: -15px;
+}
 .scene_4_container{
   background-color: #F6F6FA;
-  padding: 70px 5vw 70px 10vw;
+  padding-top: 70px;
+  padding-bottom: 54px;
 }
-
-.introduce{
-  font-family: Montserrat;
+.cost_earning_title {
+  font-family: Gotham Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
-  line-height: 130%;
-  color: #1C202B;
+  line-height: 110%;
+  color: #1123FF;
   text-shadow: 0px 8px 12px rgba(56, 56, 56, 0.25);
+  padding-bottom: 30px;
+}
+.cost_earning_content {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4F5258;
+}
+.introduce{
+  height : 54px;
+  margin-left: -10px;
+  margin-bottom: 25px;
 }
 .Scene2 {
   width: 100%;
@@ -56,8 +85,17 @@
   width : 90%
 }
 .scene_3_container{
-  padding: 0 5vw 58px 10vw;
-  margin-top: -10vw;
+  margin-top: -147px;
+}
+.membership_title {
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  color: #1C202B;
+  padding-top: 66px;
+  padding-left: 30px;
 }
 .left {
   float: left;
@@ -70,45 +108,47 @@
   border-radius: 10px 0 0 10px;
   width : 265px;
   height : 300px;
-  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.08);  
+  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.3);
 }
 .membershipCard2 {
   background: #278AFD;
   width : 265px;
   height : 300px;
-  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.08);  
+  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.3);  
 }
 .membershipCard3{
   background: #1D23FF;
   width : 265px;
   height : 300px;
-  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.08);  
+  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.3);  
 }
 .membershipCard4{
   background: linear-gradient(265.41deg, #B88E6D 4.32%, #E8D9CA 97.03%);
   border-radius: 0px 10px 10px 0px;
   width : 265px;
   height : 300px;
-  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.08);  
+  box-shadow: 0px 10px 50px rgba(41, 46, 65, 0.3);  
 }
 .center {
   text-align: center;
 }
 .center_items1 {
   padding-top: 10%;
-  margin-left : -20px;
-  margin-right: -20px;
 }
 .center_items {
   height:'100%';
   display : 'flex';
   align-items : 'center';
+  position: relative;
+  bottom: -30px;
 }
 .hSpace {
   padding-top: 50px;
 }
 .scene_5_container {
-  padding: 100px 5vw 100px 10vw;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: -30px;
 }
 .star_text{
   font-family: Gotham Pro;
@@ -117,27 +157,27 @@
   font-size: 22px;
   line-height: 180%;
   color: #1C202B;
-  padding : 3vw 3vw 3vw 1.5vw;
+  padding : 64px 66px 0 66px
 }
 .dotSquare {
   position: relative;
-  top : 50px;
-  left : 250px;
+  top : 65px;
+  left : 295px;
   z-index: unset;
-  width : 72px;
+  width : 100px;
 }
 .dotSquare1 {
   position: relative;
   top : 60px;
-  width : 72px;
+  width : 100px;
 }
 .star_div {
-  width: 100%;
+  width: 880px;
+  height: 240px;
   background: #5CE7E7;
   box-shadow: 10px 10px 10px rgba(56, 56, 56, 0.15);
   border-radius: 10px;
   z-index : -1;
-  padding : 20px;
   text-align: left;
   margin-top : -50px;
 }
@@ -146,8 +186,8 @@
   border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(56, 56, 56, 0.15);
   margin-left: 30px;
-  width: 100%;
-  position: relative;
+  width : 460px;
+  margin-left:85px
 }
 .convert_and_pay_text {
   font-family: Gotham Pro;
@@ -156,17 +196,21 @@
   font-size: 40px;
   line-height: 130%;
   color: #1C202B;
-  padding-top: 15px;
+  padding-top: 30px;
   text-shadow: 0px 8px 12px rgba(56, 56, 56, 0.25);
 }
+.pay_detail {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #4F5258;
+}
 .star{
-  padding : 3vw;
+  padding : 52px;
 }
-.image {
-  max-width: 100%;
-  position: relative;
-  bottom : 0px;
-}
+
 .strong {
   color :blue;
   font-weight: bold;
@@ -181,7 +225,9 @@
 }
 .Scene5 {
   border-radius: 10px;
-  width : 95%;
+  width : 480px;
+  text-shadow: 0px 8px 12px rgba(56, 56, 56, 0.25);
+  padding-bottom: 50px;
   position: relative;
   left: 35px;
   z-index: -1;
@@ -194,7 +240,8 @@
   line-height: 150%;
   text-align: center;
   color: #1C202B;
-  text-shadow: 0px 8px 12px rgba(56, 56, 56, 0.25);
+  text-shadow: 0px 8px 12px rgba(56, 56, 56, 0.4);
+  padding-bottom: 47px;
 }
 .Scene5_title1 {
   display: none;
@@ -215,7 +262,32 @@
   line-height: 150%;
   color: #4F5258;
   max-width : 450px;
-  padding-left: 20px;
+  width : 420px;
+  padding-left: 18px;
+}
+.Subscribe {
+  background: #1123FF;
+  box-shadow: 0px 9px 16px rgba(56, 56, 56, 0.15);
+  border-radius: 0 5px 5px 0;
+  width:180px;
+  height: 50px;
+  margin-top: 50px;
+  padding-top: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.subscribe_input {
+  border-radius: 5px 0 0 5px;
+}
+.Subscribe:hover{
+  cursor: pointer;
 }
 .button {
   background: #F42C50;
@@ -233,27 +305,29 @@
   text-transform: uppercase;
   color: #FFFFFF;
   padding-top: 15px;
+  position: relative;
+  left: 360px;
 }
 .button_position{
-  width : 100%;
-  text-align: center;
+  margin-top: 20px;
 }
 .button:hover {
   cursor: pointer;
 }
 .Scene5_text_position{
   padding-top: 40px;
+  margin-left: 58px;
 }
 .Scene5_title2{
-  padding-bottom : 20px;
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 140%;
-  padding-left: 20px;
+  padding-left: 18px;
   color: #1C202B;
   min-width: 280px;
+  margin-top:5px
 }
 .scene_7_container {
   background-image: url('../../assets/img/MonthBank.svg');
@@ -264,7 +338,6 @@
   background-position: right;
   display: flex;
   align-items: center;
-  padding : 0 7vw 0 7vw;
 }
 .scene7_text {
   font-family: Gotham Pro;
@@ -276,7 +349,8 @@
 }
 .scene_8_container {
   background-color: #1123FF;
-  padding: 7vw 14vw 0 7vw;
+  padding-top: 100px;
+  margin-bottom: -5px;
 }
 .Scene8_download {
   font-family: Montserrat;
@@ -296,7 +370,7 @@
   margin-top: 30px;
 }
 .Scene8_right {
-  padding-left: 5vw;
+  padding-left: 0px;
 }
 @media only screen and (max-width:990px){
   .video_placeholder{
@@ -309,7 +383,7 @@
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:990px) {
   .Scene5_title2 {
     padding-left: 0;
   }
@@ -346,20 +420,21 @@
     font-family: Gotham Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 180%;
     color: #1C202B;
-    padding : 3vw 1.5vw 3vw 1.5vw;
+    padding-left: 66px;
   }
   .convert_title {
     font-family: 'Montserrat';
     max-width: 100%;
     font-style: normal;
     font-weight: 'normal';
-    font-size: 30px;
+    font-size: 60px;
     line-height: 110%;
     color: #FFFFFF;
     float: left;
+    width: 696px;
   }
   .left {
     width:100vw
@@ -368,7 +443,7 @@
     padding-left: 2vw;
   }
   .image {
-    width :100%;
+    width :464px;
   }
   .bold {
     font-size: 36px;

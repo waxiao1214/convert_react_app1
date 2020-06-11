@@ -9,17 +9,15 @@ function Scene_1() {
     <div className={ styles.scene_1_container }>
       <Header/>
       <div className = "row">
-        <div class="col-10 col-lg-7"  style = {{marginRight : '-50px'}}>
-          <div className={styles.title_position}>
-            <h1 className={ styles.convert_title }>
-              <b className={ styles.bold }>Convert</b> your <br/>monthly bills to extra cash
-            </h1>
+        <div className = "userml d-flex">
+          <div style = {{ width : '800px'}}>
+            <label className = { styles.convert_text}>
+              <b className = { styles.convert_strong }>Convert</b> your <br/>monthly bills to EXTRA cash
+            </label>
           </div>
-        </div>
-        <div class="col-10 col-lg-5">
-          <div className = { styles.center } >
-            <img data-aos="fade-left" src = { scene_1_phone } className = { styles.image }/>
-          </div>      
+          <div style = {{ width : '260px'}}>
+            <img className = { styles.image } src = { scene_1_phone }></img>
+          </div>
         </div>
       </div>
     </div>
