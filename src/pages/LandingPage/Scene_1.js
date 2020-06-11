@@ -2,7 +2,9 @@ import React from 'react'
 import CSSModules from 'react-css-modules';
 import styles from './LandingPage.module.css'
 import Header from '../../components/Header';
-import scene_1_phone from '../../assets/img/scene1_phone.png'
+import scene_1_phone from '../../assets/img/scene1_phone.png';
+import googlePlay from '../../assets/img/Googleplay.png';
+import appStore from '../../assets/img/appleStore.png';
 import cx from 'classnames'
 function Scene_1() {
   return (
@@ -14,6 +16,8 @@ function Scene_1() {
             <label className = { styles.convert_text}>
               <b className = { styles.convert_strong }>Convert</b> your <br/>monthly bills to EXTRA cash
             </label>
+            <img src = { googlePlay } style = {{ height: '55px', paddingRight: '17px'}}/>
+            <img src = { appStore } style = {{ height: '55px'}} />
           </div>
           <div style = {{ width : '260px'}}>
             <img className = { styles.image } src = { scene_1_phone }></img>

@@ -1,0 +1,38 @@
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #1C202B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.percent {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #1C202B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.earning {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 90%;
+  text-align: center;
+  color: #1C202B;
+}
+.text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #1C202B;
+}

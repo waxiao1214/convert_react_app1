@@ -28,7 +28,7 @@ function Form() {
                     </div>
                     <div className = { styles.input }>
                       <label className = { styles.label }>Message</label>
-                      <textarea style = {{ width: '500px'}}/>
+                      <TextField multiline fullWidth rows={3} variant="outlined"/>
                     </div>
                 </form>
                 <div className = { styles.submit }>

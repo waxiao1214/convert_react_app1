@@ -79,28 +79,28 @@ function Scene_3() {
         </div>
       </div>
       <div className={cx("row", styles.hSpace)} >
-        <div className = "userml">
-          <div className="col-12 col-lg-6" style = {{ width : '530px'}}>
+        <div className = "userml d-flex">
+          <div style = {{ width : '480px'}}>
             <div className = { styles.center_items }>
             <h1>Convert Your <br/>
             <b className = { styles.strong }>Installment</b>To Cash<br/><a>Car | </a> <a>Home Installment</a></h1>
             </div>
           </div>
-          <div className="col-12 col-lg-6" style = {{ width : '530px'}}>
+          <div style = {{ width : '580px'}}>
               <img  className = { styles.right } src = { Scene3_2_1 } style = {{marginTop:'20px', marginBottom : "-20px", width : '166px'}}/>
               <img  className = { styles.right } style={{boxShadow: '5px 5px 5px rgba(0, 0, 0, 0.25)', marginRight : '37px', width:'166px'}} src = { Scene3_2_2 } />
           </div>
         </div>
       </div>
       <div className={cx("row", styles.hSpace)}>
-        <div className = "userml">
-          <div className="col-12 col-lg-6" style = {{ width : '530px'}}>
+        <div className = "userml d-flex">
+          <div  style = {{ width : '480px'}}>
             <div className = { styles.center_items }>
             <h1>Convert Your <br/>
             <strong className = { styles.strong }>Education</strong> Bills To Cash<br/><a>School | </a> <a>Tuition Fees etc..</a></h1>
             </div>
           </div>
-          <div className="col-12 col-lg-6" style = {{ width : '530px'}}>
+          <div style = {{ width : '580px'}}>
             <div className = { styles.right }>
               <img src = { Scene3_3_1 } style = {{ width : '410px', height:'220px', marginRight:'-5px'}}/>
             </div>
@@ -108,14 +108,14 @@ function Scene_3() {
         </div>
       </div>
       <div className={cx("row", styles.hSpace)}>
-        <div className = "userml">
-          <div className="col-12 col-lg-6" style = {{ width : '530px', height:'220px'}}>
+        <div className = "userml d-flex">
+          <div style = {{ width : '480px', height:'220px'}}>
             <div className = { styles.center_items }>
               <h1>Convert Your <br/>
               <strong className = { styles.strong }>Service</strong> Bills To Cash<br/><a>Condo |</a> <a>Parking |</a><a> Security Fees</a></h1>
             </div>
           </div>
-          <div className="col-12 col-lg-6" style = {{ width : '530px'}}>
+          <div style = {{ width : '580px'}}>
             <div className = { styles.right }>
               <img src = { Scene3_4_1 } style = {{ width:'410px', height : '220px', marginRight: '-5px'}}/>
             </div>

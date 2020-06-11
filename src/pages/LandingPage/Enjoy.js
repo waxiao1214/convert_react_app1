@@ -4,6 +4,8 @@ import styles from './LandingPage.module.css';
 import Scene5 from '../../assets/img/Scene5.svg';
 import dotSquare from '../../assets/img/dotSquare.png';
 import cx from 'classnames';
+import calendar from '../../assets/img/calendar.png'
+import bonus from '../../assets/img/bonus.svg'
 
 function Enjoy() {
   return (
@@ -29,6 +31,7 @@ function Enjoy() {
                 <div className = "row d-flex">
                   <div style = {{paddingRight : '10px'}}>
                     <div className={ styles.icon_div}>
+                      <i class="fa fa-refresh" aria-hidden="true" style = {{color:'blue', fontSize: '25px', marginTop:'18px',marginLeft:'20px'}}></i>
                     </div>
                   </div>
                   <div >
@@ -50,6 +53,7 @@ function Enjoy() {
                 <div className = "row d-flex">
                   <div style = {{paddingRight : '10px'}}>
                     <div className={ styles.icon_div}>
+                      <img src = { calendar } style = {{ width : '60px'}}/>
                     </div>
                   </div>
                   <div>
@@ -70,6 +74,7 @@ function Enjoy() {
                 <div className="row d-flex">
                   <div  style = {{paddingRight : '10px'}}>
                     <div className={ styles.icon_div }>
+                      <img src = { bonus } style = {{ marginLeft : '17px', marginTop : '17px'}}/>
                     </div>
                   </div>
                   <div>
